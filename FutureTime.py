@@ -8,6 +8,7 @@ import datetime
 
 def main():
   #getting current time from system, storing to variable
+
   now = datetime.datetime.now()
   currentHour = (now.hour - 6)
   currentMinute = now.minute
